@@ -7,7 +7,7 @@
     "start": "node server.js",
     "dev": "./node_modules/.bin/nodemon server.js"
   },
-  "author": "Alexey Tikhonenko",
+  "author": "Alexey and Denis",
   "license": "ISC",
   "dependencies": {
     "json-server": "^0.16.0",
