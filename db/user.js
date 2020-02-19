@@ -1,6 +1,3 @@
-module.exports = {
-  user: {
-    id: 1,
-    name: 'Alex',
-  },
-}
+const user = require('./users/user')
+
+module.exports = {user}

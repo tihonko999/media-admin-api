@@ -19,7 +19,7 @@ for (let i = 1; i < 100; i++) {
   const userRole = roles[Math.floor(Math.random() * Math.floor(roles.length))]
 
   const user = {
-    id: 1,
+    id: i,
     name: firstName,
     surname: lastName,
     email: faker.internet.email(),
