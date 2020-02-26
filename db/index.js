@@ -5,6 +5,8 @@ const references = require('./references')
 const matters = require('./matters')
 const users = require('./users')
 const notifications = require('./notifications')
+const tags = require('./tags')
+const letters = require('./letters')
 
 module.exports = {
   user,
@@ -14,4 +16,6 @@ module.exports = {
   matters,
   users,
   notifications,
+  tags,
+  letters,
 }
