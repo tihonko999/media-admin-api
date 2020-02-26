@@ -8,7 +8,7 @@ for (let i = 1; i < 100; i++) {
   const tag = {
     id: i,
     text: firstName,
-    platform_id: 2,
+    platform_id: 12,
     matters_total: Math.floor(Math.random() * Math.floor(10)),
   }
   const item = Object.assign({}, tag)
